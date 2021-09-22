@@ -86,20 +86,28 @@ img {
   color: var(--accent-color);
 }
 
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  fill: var(--primary-text-color);
+}
+
+.icon-phone:hover {
+  fill: var(--accent-color);
+}
+
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  fill: var(--primary-text-color);
+}
+
+.icon-mail:hover {
+  fill: var(--accent-color);
+}
 .nav-contacts {
   display: flex;
   margin-left: auto;
-}
-
-.nav-contacts .items::before {
-  display: inline-block;
-  content: "";
-  height: 15px;
-  width: 15px;
-  background-image: url(../images/envelope.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: bottom;
 }
 
 .nav-contacts .items + .items {
@@ -134,8 +142,8 @@ img {
   background: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
     ),
     url(../images/Img.jpeg);
   background-repeat: no-repeat;
